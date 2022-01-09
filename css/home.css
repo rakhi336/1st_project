@@ -1,0 +1,385 @@
+*{
+    margin: 0%;
+    top: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(../Image/bg_main.gif);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.first_div{
+    margin: 0 auto;
+    padding: 0%;
+}
+.first_div .d1{
+    padding-left: 10px;
+}
+.d1{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(97, 29, 165);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.first_div .right{
+    display: flex;
+    padding-right: 20px;
+}
+.d1 .right p:last-child{
+    border-left: 1px solid white ;
+    padding-left: 10px;
+}
+.header .d2{
+    height: 100px;
+     width: 30%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.header .d2 img{
+    width: 80%;
+}
+
+/*.cp{
+    width: 100px;
+    margin-right: 2px;
+    height: 50px;
+    background-color: turquoise;
+}
+
+.d2 .cp{
+    display: flex;
+}*/
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.header{
+    height: 80%;
+
+}
+.cp-first{
+    background-color: red;
+
+}
+.info-wrapper{
+    display: flex;
+    padding-top: -200px;
+   
+}
+.single-info{
+    display: flex;
+    justify-content: center;
+    background-color: #97C948;
+    color: #FCFFFf; 
+    padding: 1px 15px;
+    cursor: pointer;
+    margin-right: 0.1rem;
+    position: relative;
+    transition: all .2s ease-in;
+}
+ 
+.single-info span{
+    padding: 0 5px;
+font-size: 13px;
+ 
+}
+.single-info:first-child{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
+}
+.menu{
+background-color: antiquewhite;
+height: 40px;
+position: relative;
+}
+
+.menu ul{
+    list-style-type: none;
+    display: flex;
+
+}
+.menu ul li{
+margin: 2px;
+padding: 2px;
+}
+.menu ul li a{
+text-decoration: none;
+color: black;
+}
+.menu ul li:hover{
+   background-color: brown;
+    }
+    .sub-menu{
+        display: none;
+        background-color: bisque;
+    }
+    .menu ul li:hover .sub-menu{
+        display: block;
+        position: absolute;
+        background-color: antiquewhite;
+        margin-top: 10px;
+        margin-left: 11px;
+        top: 20px;
+    }
+
+    .menu ul li:hover .sub-menu ul{
+        display: block;
+    }
+
+    .menu ul li:hover .sub-menu ul li{
+        margin-left: -15px;
+        background-color: antiquewhite;
+        padding: 10px 15px;
+    }
+    .bus-menu{
+        display: none;
+        background-color: bisque;
+    }
+    .menu ul li:hover .bus-menu{
+        display: block;
+        position: absolute;
+        top: 20px;
+        background-color: antiquewhite;
+        margin-top: 10px;
+        margin-left: 11px;
+    }
+
+    .menu ul li:hover .bus-menu ul{
+        display: block;
+    }
+    .menu ul li:hover .bus-menu ul li{
+        margin-left: -15px;
+        background-color: antiquewhite;
+        padding: 10px 15px;
+    }
+    .pic_div{
+      margin: 5px; 
+        padding: 0px;
+        overflow: hidden;
+        display: flex;
+    }
+    .pic_div .image{
+        width: 70%;
+        height: auto;
+         
+    }
+    .pic_div .image1{
+        width: 30%; 
+
+    }
+    .pic_div .image1 .im1:hover{
+        padding: 5px;
+    }
+    .pic_div .image1 .im2:hover{
+        padding: 5px;
+    }
+
+    .pic_div .image1 .im3:hover{
+        padding: 5px;
+    }
+    .pic_div .image1 .im4:hover{
+        padding: 5px;
+    }
+    .pic_div .image1 .im5:hover{
+        padding: 5px;
+    }
+    .pic_div .image1 .im6:hover{
+        padding: 5px;
+    }
+    .pic_div .image1 .im7:hover{
+        padding: 5px;
+    }
+    .pic_div .image1 .im8:hover{
+        padding: 5px;
+    }
+    .pic_div .image1 .im9:hover{
+        padding: 5px;
+    }
+    .pic_div .image1 .im10:hover{
+        padding: 5px;
+    }
+    .pic_div .image1 .im11:hover{
+        padding: 5px;
+    }
+    .pic_div .image1 .im12:hover{
+        padding: 5px;
+    }
+    .pic_div .image1 .im13:hover{
+        padding: 5px;
+    }
+    
+    .pic_div .image1 .im14:hover{
+        padding: 5px;
+    }
+    .pic_div img{
+        width: 100%;
+    }
+    .mar_cls{
+        background-color: bisque;
+        font-weight: bold;
+    }
+
+    .menu2{
+position: relative;
+    }
+
+    .menu2 ul{
+        list-style-type: none;
+        display: flex;
+    
+    }
+
+    .menu2 ul li{
+        margin: 2px;
+        padding: 3px;
+        
+        background-color: navy;
+        }
+        .menu2 ul li a{
+            text-decoration: none;
+            color: white;
+            height: 50px;
+            }
+            .menu2 ul li:hover{
+                background-color: tomato;
+                 }
+
+
+                 .icon_div {
+                     background-color:whitesmoke;
+                   height: 300px;
+                 }
+                 .icon_div .row div, .row2 div {
+                    margin-top: 26px;
+                    margin-left: 39px;
+                    height: 50px;
+                    width: 50px;
+                    font-size: 10px;
+                }
+                
+                 .icon_div .row, .row2{
+                display: flex; 
+                 }
+
+                 .icon_div .row2{
+                     margin-top: 15px;
+                   }
+                   .hclass{
+                       margin-top: 10px;
+                      margin-left: 10px;
+                      height: auto;
+                   }
+
+                   .full{
+                       background-color: whitesmoke;
+                   }
+                 .dddd .menu3{
+                     list-style-type: none;
+                  }
+
+                  .hclass{
+                      width: 60%;
+                  }
+                  
+                  .b1cls{
+                      background-color: violet;
+                        margin-top: 5px;
+                  }
+                  .b1cls:hover{
+                      background-color: turquoise;
+
+                  }
+
+                
+
+                 .img-row1, .img-row2, .img-row3, .img-row4{
+                    margin-top: 5px;
+                    margin-left: 10px;
+                    height: 50px;
+                    width: 200px;
+                    display: flex;
+                    background-color: white;
+                 }
+
+                 .imh_cls{
+                background-color: whitesmoke;
+                 }
+
+                 .bclss{
+                     background-color: whitesmoke;
+                 }
+.m_class{
+    background-color: yellowgreen;
+    height:30px;
+
+}
+
+
+.side-div{
+    background-color: whitesmoke;
+    width: 40%;
+}
+
+.div_joo{
+background-color: whitesmoke;
+color: blueviolet;
+}
+.immm{
+    list-style-type: none;
+    width: 315;
+    height: 60;
+
+}
+.sebacls{
+    display: flex;
+}
+
+.ss{
+list-style-type: none;
+    height: 40px;
+}
+.iiimm{
+width: 100%;
+}
+
+.footer .dd{
+display: flex;
+list-style-type: none;
+background-color: whitesmoke;
+height:30px;
+text-align: right;
+padding: 20px;
+}
+
+
+.lastdvv{
+    background-color: gray;
+}
+
+.shava{
+    display: flex;
+    margin-top: 10px;
+}
+.shave1  ol{
+    margin-left: 30px;
+
+}
+.shava a{
+    text-decoration: none;
+}
+.shava a:hover{
+    text-decoration: underline;
+}
+
+.box{
+display: flex;
+justify-content: space-between;
+margin-top: 40px;
+}
